@@ -52,7 +52,7 @@ def run_gui():
     sender_entry = create_field(window, "Sender Name:")
     position_entry = create_field(window, "Position:")
     cert_path_entry = create_field(window, "Certificate Path:", browse=True)
-    font_path_entry = create_field(window, "Font Path:", browse=True, initial_value=r"C:\Windows\Fonts\times.ttf")
+    font_path_entry = create_field(window, "Font Path:", browse=True, initial_value=r"D:\my_2projects\automate_certificate-\IMFellEnglish-Regular.ttf")
 
     body_frame = tk.Frame(window, bg=BG_COLOR)
     body_frame.pack(pady=5, padx=20, anchor="w", fill="x")
